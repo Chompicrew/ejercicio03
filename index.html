@@ -22,6 +22,7 @@ var element = document.getElementById('deviceProperties');
                             'Device UUID: '     + device.uuid     + '<br />' +
                             'Device Version: '  + device.version  + '<br />' +
                             'PhoneGap Version:' + device.phonegap + '<br />' +
+                            'Device serial:'    + device.serial   + '<br />' +
                             'Device Name:' 	+ device.name 	  + '<br />';
     }
 
@@ -30,7 +31,7 @@ var element = document.getElementById('deviceProperties');
 </head>
 <body onload="onBodyLoad()">
 <h1>HelloWorld3</h1>
-<p id="deviceProperties">Waiting for PhoneGap Initialization to
+<p>Waiting for PhoneGap Initialization to
 complete...</p>
 <p>This is a PhoneGap application that makes calls to the
 PhoneGap APIs.</p>
